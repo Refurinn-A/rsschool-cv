@@ -42,3 +42,17 @@ let result = sum(1, 2);
 alert( result );
 ```
 -----
+#### **Professional Experience:**
++ 2018 – Present
+
+    + Localization Specialist at a Gamedev Company
+
++ 2013 – 2018
+
+    + English and Swedish instructor at Minsk State Linguistic University
+
+**Education:**
+
++ 2008 – 2013
+
+    + **Minsk State Linguistic University** Department of Translation and Interpreting (*English, Swedish*)
