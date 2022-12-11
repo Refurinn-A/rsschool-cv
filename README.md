@@ -1,2 +1,2 @@
 # rsschool-cv
-https://refurinn-a.github.io/resschool-cv/cv
+https://refurinn-a.github.io/rsschool-cv/cv
