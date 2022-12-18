@@ -2,9 +2,142 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Volia Kuntsevich CV</title>
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400&display=swap" rel="stylesheet">
 </head>
-<body>
 
+<body>
+    <header class="header">
+
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code Example</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Professional Experience</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+        <img src="assets/img/photo_cv.jpeg" alt="Candidate's Photo" class="cv-photo">
+        <div class="cv-name">
+            <h1 class="main-title">Volia Kuntsevich</h1>
+        </div>
+        </div>
+    </header>
+        
+    <main class="main">
+        <div class="container main-container">
+
+            <section class="section" id="contacts">
+            <h2 class="section-title">Contacts:</h2>
+                <div>
+                    <ul class="contacts-list">
+                        <li><b>Email:</b> kuncwolha@gmail.com</li>
+                        <li><b>Phone:</b> +375 29 825 92 26</li>
+                        <li><b>Discord:</b> Aurea</li>
+                        <li><a href="https://www.linkedin.com/in/olga-kuntsevich-709a16a2/" class="link"><b>LinkedIn</b></a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section" id="about">
+            <h2 class="section-title">About me</h2>
+            <p>Being curious and thirsty for knowledge, I can’t stay away from learning something new. I have graduated from the Linguistic University 
+               but devoting my life only to human languages has never been my final aim. I started carrier at a large game-dev company as a localization 
+               specialist 4 years ago. Working with web development teams, I’ve realized that solving complicated tasks, working in teams, and turning 
+               unreadable codes into usable interfaces is something that makes me really excited. I’d like to learn and understand more in this area, 
+               and who knows what it can lead to.</p>
+            </section>
+
+            <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div>
+                <ul>
+                    <li>Jira</li>
+                    <li>Confluence</li>
+                    <li>DejaVu, SmartCat</li>
+                    <li>Git (SourceTree)</li>
+                </ul>
+            </div>
+            </section>
+
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+            <div>
+                <ul>
+                    <li>Belarusian and Russian: Native speaker</li>
+                    <li>English: Advanced (University Diploma)</li>
+                    <li>Swedish: Intermediate (University Diploma)</li>
+                    <li>Spanish: Intermediate (University Certificate)</li>
+                    <li>Italian: Pre-Intermediate (Courses)</li>
+                </ul>
+            </div>
+            </section>
+
+            <section class="section" id="experience">
+                <h2 class="section-title">Professional Experience</h2>
+            <div>
+                <ul>
+                    <li><b>2018–Present</b>
+                        <ul>
+                            <li>Localization Specialist at a Gamedev Company</li>
+                        </ul></li>
+                    <li><b>2013–2018</b>
+                        <ul>
+                            <li>English and Swedish instructor at Minsk State Linguistic University</li>
+                        </ul></li>
+                </ul>
+            </div>
+            </section>
+
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+            <div>
+                <ul>
+                    <li><b>2008–2013</b>
+                        <ul>
+                            <li>Minsk State Linguistic University Department of Translation and Interpreting (English, Swedish)</li>
+                        </ul></li>
+                </ul>
+            </div>
+            </section>
+
+            <section class="section" id="code">
+                <h2 class="section-title">Code Example</h2>
+                <p>I've never written a single line of code yet, so I've just copied this piece from one of the examples:</p>
+            <div>
+                <pre>
+                    <code class="code">
+                    function sum(a, b) {
+                        return a + b;
+                    }
+          
+                    let result = sum(1, 2);
+                    alert( result );          
+                </code>
+                </pre>
+            </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <nav class="footer-navigation">
+                <ul class="footer-list">
+                    <li class="create-date">2022</li>
+                    <li><a href="https://github.com/Refurinn-A"><img src="assets/img/github.png" alt="Me on github" class="github-image"></a></li>
+                    <li><a href="https://rs.school/js/"><img src="assets/img/rs_school_js.svg" alt="School Logo" class="logo-image"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>
